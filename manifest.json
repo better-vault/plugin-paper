@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 2,
+  "id": "paper",
+  "name": "Paper",
+  "version": "1.0.0",
+  "description": "Warm paper and ink: cream pages, brown-black text and serif headings, for reading and writing for hours.",
+  "author": "better-vault",
+  "icon": "book",
+  "permissions": [],
+  "tags": ["theme", "mod", "reading", "serif"],
+  "contributes": {
+    "theme": {
+      "light": {
+        "background": "#f4eee2",
+        "foreground": "#2c241b",
+        "card": "#fbf7ee",
+        "popover": "#fbf7ee",
+        "muted": "#ebe3d3",
+        "muted-foreground": "#6f6253",
+        "accent": "#e7dcc6",
+        "primary": "#8a4b23",
+        "primary-foreground": "#fbf7ee",
+        "border": "#dccfb8",
+        "ring": "#8a4b23"
+      },
+      "dark": {
+        "background": "#1b1712",
+        "foreground": "#ede3d1",
+        "card": "#231e17",
+        "popover": "#231e17",
+        "muted": "#2d261d",
+        "muted-foreground": "#b3a58f",
+        "accent": "#3a3024",
+        "primary": "#e0a46b",
+        "primary-foreground": "#1b1712",
+        "border": "#3b3226",
+        "ring": "#e0a46b"
+      }
+    },
+    "mods": [{ "id": "paper-type", "title": "Serif headings, softer pages", "file": "paper.css" }]
+  }
+}

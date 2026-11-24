@@ -1,0 +1,19 @@
+/* Paper: serif headings and a softer page, nothing else changes. */
+:root {
+  --font-heading: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+.cm-h,
+[data-bv="vault-grid"] .font-bold {
+  font-family: var(--font-heading);
+  letter-spacing: 0;
+}
+
+/* Long text reads a little wider apart. */
+.markdown,
+.cm-content {
+  line-height: 1.8;
+}
